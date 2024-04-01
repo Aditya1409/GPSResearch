@@ -51,7 +51,7 @@ def grabAndSave(url):
         browser.quit()
 
 def insert_data_into_database(route_num, route_info, time_data, distance_data):
-    db = pymysql.connect(host="imc.kean.edu", user="parekhad", passwd="1238214", db="test")
+    db = pymysql.connect(host="imc.kean.edu", user="parekhad", passwd="*******", db="test")
     cursor = db.cursor()
 
     try:
