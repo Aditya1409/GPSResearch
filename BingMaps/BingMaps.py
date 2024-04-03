@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 db = pymysql.connect(host="imc.kean.edu",
                      user = "parekhad",
-                     passwd="1238214",
+                     passwd="*******",
                      db="test")
 
 cursor = db.cursor()
